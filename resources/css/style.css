@@ -1,11 +1,11 @@
 body {
+	margin: 0;
 	font-family: "Helvetica", sans-serif;
 	font-size: 22px;
 	color: seashell;
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
-	margin: 0;
 }
 
 header {
@@ -125,10 +125,12 @@ span {
 	justify-content: center;
 }
 
-footer {
+.contact-us {
 	height: 200px;
 }
 
-.copyright {
+footer {
+	text-align: left;
+	padding-left: 20px;
 }
 
