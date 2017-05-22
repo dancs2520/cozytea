@@ -44,69 +44,47 @@ a {
 	color: seashell;
 }
 
-.content {
-	display: flex;
-	width: 1232px;
-	margin: 0 auto 78px auto;
-	padding-top: 116px;
-}
-
-.image-content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 300px;
-	margin-top: 15px;
-	font-family: Georgia;
+span {
+	display: block;
 	font-weight: bold;
-	font-size: 30px;
-	color: white;
 	text-align: center;
+	padding: 5px;
 }
 
-.lead-story .image-content {
-	background-image: url("../images/img-story-main.png");
-	width: 630px;
-	margin-top: 0;
-	font-size: 40px;
-	text-align: left;
-}
-
-
-.fall-cancelled.image-content {
-	background-image: url("../images/img-story-2.png");
-}
-
-.pop-culture.image-content {
-	background-image: url("../images/img-story-3.png");
-}
-
-.cat-ceo.image-content {
-	background-image: url("../images/img-story-1.png");
-}
-
-.stories {
+.flex-container {
 	display: flex;
-	justify-content: space-between;
-	margin-top: 17px;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.stories .text-content {
-	height: 250px;
+.mission {
+	background-color: black;
+	width: 1200px;
 }
 
-.story {
-	display: flex;
-	flex-direction: column;
+#mission {
+	height: 700px;
+	background-image: url("../images/img-mission-background.jpg");
+	padding-top: 70px;
+}
+
+#mission .content {
+	background-color: black;
+	width: 100%;
+	margin: auto;
+}
+
+#featuredtea .content {
+	width: 1000px;
+	margin: auto;
+}
+
+.teabox {
+	padding: 5px;
+}
+
+.teapic {
 	width: 300px;
+	height: 200px;
+	margin: 10px;
 }
-
-.narrative {
-	margin-top: 16px;
-}
-
-img.cookie {
-	height: 240px;
-}
-
-
